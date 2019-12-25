@@ -1,0 +1,33 @@
+<idea-plugin>
+  <id>com.jensteichert.themes.nightowl</id>
+  <name>Night Owl Theme</name>
+  <version>1.1</version>
+  <vendor email="jetbrains@jensteichert.de" url="https://github.com/jensteichert">Jens Teichert</vendor>
+
+  <description><![CDATA[
+      A dark theme for Jetbrains IDE Platform. Night Owl uses a very dark gray to provide a calm coding experience.
+    ]]></description>
+
+  <change-notes><![CDATA[
+      Initial release<br>
+      A lot of improvements coming soon.
+    ]]>
+  </change-notes>
+
+  <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html for description -->
+  <idea-version since-build="181.0"/>
+
+  <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
+       on how to target different products -->
+  <depends>com.intellij.modules.platform</depends>
+
+  <extensions defaultExtensionNs="com.intellij">
+    <!-- Add your extensions here -->
+    <themeProvider id="a007a5d1-9d21-418a-bccf-f7d95be29907" path="/Night_Owl.theme.json"/>
+  </extensions>
+
+  <actions>
+    <!-- Add your actions here -->
+  </actions>
+
+</idea-plugin>
